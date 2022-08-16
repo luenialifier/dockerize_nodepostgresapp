@@ -13,7 +13,7 @@ const sequelize = new Sequelize (
 });
 
 const Person = sequelize.define( 'Person' ,{
-    firtsName: {
+    firstName: {
         type: Sequelize.STRING,
         allowNull: false
     },
@@ -21,7 +21,7 @@ const Person = sequelize.define( 'Person' ,{
         type: Sequelize.STRING,
         allowNull: true
     },
-    age: {
+    Age: {
         type: Sequelize.INTEGER,
         allowNull: true
     }
